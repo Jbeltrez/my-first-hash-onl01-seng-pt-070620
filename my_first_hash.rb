@@ -1,6 +1,8 @@
+'require'
+
 def my_hash
-  my_hash = { "kid" => "jordan", "wife"
-  # use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
+  my_hash = { "kid" => "jordan", "wife" => "maryann"}
+  binding.pry# use the literal constructor to set the variable, my_hash, equal to a hash with key/value pairs of your choice.
 
   
 end
