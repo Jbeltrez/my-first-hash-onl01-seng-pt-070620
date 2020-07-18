@@ -2,7 +2,6 @@ require 'pry'
 
 def my_hash
   my_hash = { "kid" => "jordan", "wife" => "maryann"}
-  binding.pry
 end
 
 
@@ -31,7 +30,8 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3
                  }
-                 shipping_manifest["muskets"] =
+                 shipping_manifest["muskets"] = 2
+                 binding.pry 
   # add 2 muskets to the shipping_manifest hash below
 
 
