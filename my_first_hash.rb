@@ -1,4 +1,4 @@
-'require pry'
+require 'pry'
 
 def my_hash
   my_hash = { "kid" => "jordan", "wife" => "maryann"}
